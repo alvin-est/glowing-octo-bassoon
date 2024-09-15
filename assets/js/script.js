@@ -57,6 +57,8 @@ function renderTaskList() {
 // Todo: create a function to handle adding a new task
 function handleAddTask(event){
 
+    event.preventDefault();
+
     // Datepicker widget
     $('#deadline').datepicker({
         changeMonth: true,
