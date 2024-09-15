@@ -14,3 +14,44 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+/* custom styling */
+.taskDiv li {
+  width: 69%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.formField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* User-added tasks */
+
+/* Task urgency styling */
+.done {
+  background-color: green;
+}
+
+.inprogress {
+  background-color: yellow;
+}
+
+.todo {
+  background-color: red;
+  color: white;
+}
+
+/* fix close button issue (credits: https://stackoverflow.com/a/22780077) */
+.ui-dialog-titlebar-close {
+  background: url("http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_888888_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0);
+  border: medium;
+}
+.ui-dialog-titlebar-close:hover {
+  background: url("http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_222222_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0);
+}
